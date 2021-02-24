@@ -99,6 +99,7 @@ const TextInput = forwardRef(
       readOnly,
       reverse,
       suggestions,
+      suggestionsFooter,
       textAlign,
       value: valueProp,
       ...rest
@@ -374,6 +375,7 @@ const TextInput = forwardRef(
                 }}
               </InfiniteScroll>
             </StyledSuggestions>
+            {suggestionsFooter}
           </ContainerBox>
         </Drop>
       );
