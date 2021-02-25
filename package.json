@@ -1,9 +1,9 @@
 {
   "name": "grommet",
   "version": "2.16.3",
-  "main": "index.js",
-  "module": "es6/index.js",
-  "jsnext:main": "es6/index.js",
+  "main": "dist/index.js",
+  "module": "dist/es6/index.js",
+  "jsnext:main": "dist/es6/index.js",
   "sideEffects": [
     "./src/js/contexts/ThemeContext/ThemeContext.js",
     "./es6/contexts/ThemeContext/ThemeContext.js"
